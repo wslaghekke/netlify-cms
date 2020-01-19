@@ -51,6 +51,8 @@ import {
   PreviewState,
   FetchError as FE,
   parseContentKey,
+  branchFromContentKey,
+  contentKeyFromBranch,
 } from './API';
 
 export type AsyncLock = AL;
@@ -118,6 +120,8 @@ export const NetlifyCmsLibUtil = {
   runWithLock,
   PreviewState,
   parseContentKey,
+  branchFromContentKey,
+  contentKeyFromBranch,
 };
 export {
   APIError,
@@ -161,4 +165,6 @@ export {
   runWithLock,
   PreviewState,
   parseContentKey,
+  branchFromContentKey,
+  contentKeyFromBranch,
 };
